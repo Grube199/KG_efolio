@@ -105,28 +105,18 @@ background-color: white;
     padding-top: 60px;
 }
 /* end javascript sticky toolbar*/
-.wrappera{
-			  display:grid;
-			  grid-template-columns: 0.5fr 3fr 0.5fr;
-			}
-			.wrappera > div {
-				background: #ddd;
-				padding: 1em;
-			}
-			.wrappera > div:nth-child(odd){
-				background: #eee;
-			}
+
 
 .wrapper{
 			  display:grid;
 			  grid-template-columns: 0.5fr 3fr 0.5fr;
 			}
 			.wrapper > div {
-				background: #eee;
+				background: black;
 				padding: 1em;
 			}
 			.wrapper > div:nth-child(odd){
-				background: #FFF;
+				background: black;
 			}
 /*text area that shows what the spellcheck atrribute works with*/
 #elements {
@@ -153,9 +143,6 @@ img.align-center {
     margin: 10px, auto, 10px, auto;
 }
 
-  list{
-  background-color: #eee;
-}
 
 .footer {
     background-color: #191970;
