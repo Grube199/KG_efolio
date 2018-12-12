@@ -25,6 +25,7 @@ body {
 /* increase leading fore ease of reading*/
 p {
   line-height: 1.5em;
+  Text-decoration-color: #ccc;
 }
 
 h1 {
@@ -71,8 +72,13 @@ li a:hover:not(.active) {
 }
 
 h2 {
-  color: #191970;
+  color: #ccc;
   }
+
+  #info {
+    background-color: white;
+  }
+  
 /*Home page banner color with picture*/
 
 /* Trying to style column
@@ -105,7 +111,22 @@ background-color: white;
     padding-top: 60px;
 }
 /* end javascript sticky toolbar*/
+.wrappera{
+			  display:grid;
+			  grid-template-columns: 1fr 3fr;
+			}
+      .wrappera > div{
+        background: black;
+        padding: 1em;
+      }
 
+			.wrappera > div {
+				background: black;
+				padding: 1em;
+			}
+			.wrappera > div:nth-child(odd){
+				background: black;
+			}
 
 .wrapper{
 			  display:grid;
@@ -117,7 +138,19 @@ background-color: white;
 			}
 			.wrapper > div:nth-child(odd){
 				background: black;
-			}
+      }
+		      .wrapperb{
+      			  display:grid;
+      			  grid-template-columns: 0.5fr 3fr 0.5fr;
+      			}
+      			.wrapperb > div {
+      				background: white;
+      				padding: 1em;
+      			}
+      			.wrapperb > div:nth-child(odd){
+      				background: white;
+      			}
+
 /*text area that shows what the spellcheck atrribute works with*/
 #elements {
 
@@ -152,12 +185,7 @@ img.align-center {
     text-align: center;
     }
 
-/* Style inputs with type="text", select elements and textareas */
 
-/* Style the submit button with a specific background color etc */
-
-
-/* Add a background color and some padding around the form */
 .container {
     border-radius: 7px;
     background-color: #f2f2f2;
