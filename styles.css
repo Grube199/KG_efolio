@@ -141,11 +141,11 @@ background-color: white;
       			  grid-template-columns: 0.5fr 3fr 0.5fr;
       			}
       			.wrapperb > div {
-      				background: black;
+      				background: white;
       				padding: 1em;
       			}
       			.wrapperb > div:nth-child(odd){
-      				background: black;
+      				background: white;
       			}
 
 /*text area that shows what the spellcheck atrribute works with*/
