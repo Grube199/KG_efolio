@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<meta charset="utf-8">
+<!--testing javascript for sticky toolbar-->
+<meta name="viewport" content ="width=device-width, initial-scale=1">
+</meta>
+</meta>
+<head>
+  <!--Can I code an image into the title? -->
+  <title>Katharine Gruber</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Oxygen" rel="stylesheet">
+</head>
+<body>
+
+
+  <img src="images/peter-lewicki-412082-unsplash9.png" alt="typewriter keys" width="100%" height="25%"/>
+
+<header>
+    <h1>Katharine Gruber</h1>
+<h4></h4>
+
+</header>
+<!--<div id="toolbar">
+  <!--Create buttons for navigation bar-->
+  <!-- works-->
+
+<div id="toolbar">
+  <ul>
+    <li><a class="active" href="index.html">Home</a></li>
+    <li><a href="website.html">Sample</a></li>
+    <li><a href="resume.html">Resume</a></li>
+  </ul>
+  </div>
+<main>
+
+<!--trying out sticky toolbar-->
+<br>
+<div class="wrappera">
+<div>
+<img src="images/KGruber300px.png" alt="Katharine Gruber"/></div>
+<div>
+<h2>Dedicated<br/> Trustworthy<br/>Detail Oriented<br/>Technical Communicator</h2>
+</div>
+</div>
+
+ <!-- <hr> gives the piece a horizontal rule -->
+
+<div class="footer">
+<footer>
+<p>Copyright &copy 2018 Katharine Gruber</strong>| Website Design by Kathy</p>
+</footer>
+</div>
+
+<script>
+    window .onscroll = function(){myFunction();};
+    var toolbar = document.getElementById("toolbar");
+    var sticky = toolbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        toolbar.classList.add("sticky")
+      } else {
+        toolbar.classList.remove("sticky");
+      }
+    }
+
+</script>
+</main>
+</body>
+</html>
